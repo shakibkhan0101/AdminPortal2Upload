@@ -6,4 +6,5 @@ import tech.gig.examninja.admin.AdminUploads.model.Question;
 
 @Repository
 public interface QuestionRepository extends JpaRepository<Question, Long> {
+    boolean existsByQuestion(String question);
 }

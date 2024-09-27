@@ -16,8 +16,6 @@ public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Qid;
-
-    private String examName;
     private String question;
     private String option1;
     private String option2;
@@ -27,5 +25,6 @@ public class Question {
     private String answerDescription;
     private String category;
     private String level;
+    private String questionType;
 
 }
